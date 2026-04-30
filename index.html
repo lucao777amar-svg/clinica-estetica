@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumière Clínica Estética</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav__logo">Lumière<span>.</span></div>
+    <ul class="nav__links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#servicos">Serviços</a></li>
+      <li><a href="#resultados">Resultados</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <a href="#orcamento" class="nav__cta">Agendar</a>
+    <button class="nav__hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#sobre" class="mobile-link">Sobre</a></li>
+      <li><a href="#servicos" class="mobile-link">Serviços</a></li>
+      <li><a href="#resultados" class="mobile-link">Resultados</a></li>
+      <li><a href="#blog" class="mobile-link">Blog</a></li>
+      <li><a href="#contato" class="mobile-link">Contato</a></li>
+      <li><a href="#orcamento" class="mobile-link cta-link">Agendar Consulta</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero__content fade-in">
+      <span class="hero__tag">Clínica de Estética Avançada</span>
+      <h1 class="hero__title">Especialistas em<br /><em>Estética Avançada</em></h1>
+      <p class="hero__sub">Realce sua beleza natural com tratamentos de última geração, conduzidos por especialistas dedicados ao seu bem-estar e autoestima.</p>
+      <div class="hero__actions">
+        <a href="#orcamento" class="btn btn--primary">Agendar Consulta</a>
+        <a href="#servicos" class="btn btn--ghost">Nossos Serviços</a>
+      </div>
+    </div>
+    <div class="hero__image-side">
+      <div class="hero__image-frame">
+        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=900&q=80" alt="Tratamento estético" />
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICE HIGHLIGHT 1 -->
+  <section class="highlight highlight--left" id="sobre">
+    <div class="highlight__image-wrap fade-in-left">
+      <img src="https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=900&q=80" alt="Tratamento facial" />
+      <div class="highlight__badge badge--teal">
+        <strong>2×</strong>
+        <span>Mais Resultados</span>
+      </div>
+    </div>
+    <div class="highlight__text fade-in-right">
+      <span class="section-tag">Tratamentos Faciais</span>
+      <h2 class="section-title">Renove sua<br /><em>Pele.</em></h2>
+      <p>Experimente o poder dos tratamentos faciais personalizados da Lumière — desenvolvidos para devolver luminosidade, firmeza e jovialidade à sua pele.</p>
+      <ul class="highlight__list">
+        <li>Limpeza de pele profunda e hidratação intensiva</li>
+        <li>Bioestimuladores e preenchedores dérmicos</li>
+        <li>Protocolos anti-aging com tecnologia de ponta</li>
+      </ul>
+      <a href="#orcamento" class="btn btn--primary">Saiba Mais</a>
+    </div>
+  </section>
+
+  <!-- SERVICE HIGHLIGHT 2 -->
+  <section class="highlight highlight--right" id="servicos">
+    <div class="highlight__text fade-in-left">
+      <span class="section-tag">Harmonização Corporal</span>
+      <h2 class="section-title">Clínica<br /><em>Especializada.</em></h2>
+      <p>Nossa equipe transforma ambientes — e pessoas. Da harmonização facial ao contorno corporal, cada procedimento é planejado para resultados reais e duradouros.</p>
+      <ul class="highlight__list">
+        <li>Criolipólise e radiofrequência corporal</li>
+        <li>Drenagem linfática e massagem modeladora</li>
+        <li>Tratamentos pós-operatórios especializados</li>
+      </ul>
+      <a href="#orcamento" class="btn btn--primary">Agendar Avaliação</a>
+    </div>
+    <div class="highlight__image-wrap fade-in-right">
+      <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=900&q=80" alt="Ambiente da clínica" />
+      <div class="highlight__badge badge--rose">
+        <strong>24/7</strong>
+        <span>Suporte ao Cliente</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats" id="resultados">
+    <div class="stats__wave-top"></div>
+    <div class="stats__inner">
+      <div class="stat fade-in">
+        <span class="stat__number" data-target="5000">0</span><span class="stat__suffix">+</span>
+        <p>Clientes Atendidos</p>
+      </div>
+      <div class="stat fade-in" style="animation-delay:.15s">
+        <span class="stat__number" data-target="4800">0</span><span class="stat__suffix"></span>
+        <p>Avaliações Positivas</p>
+      </div>
+      <div class="stat fade-in" style="animation-delay:.3s">
+        <span class="stat__number" data-target="99">0</span><span class="stat__suffix">%</span>
+        <p>Taxa de Satisfação</p>
+      </div>
+    </div>
+    <div class="stats__wave-bot"></div>
+  </section>
+
+  <!-- ABOUT / VALUE PROP -->
+  <section class="about">
+    <div class="about__image fade-in-left">
+      <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=900&q=80" alt="Equipe da clínica" />
+      <div class="about__card glass">
+        <span class="about__card-emoji">✦</span>
+        <p>"Cuidamos de você com precisão e carinho"</p>
+      </div>
+    </div>
+    <div class="about__content fade-in-right">
+      <span class="section-tag">Sobre a Lumière</span>
+      <h2 class="section-title">Tratamentos Profissionais<br /><em>Para Cada Ocasião</em></h2>
+      <p>Somos mais do que uma clínica — somos um espaço de transformação. A Lumière foi fundada com a missão de oferecer estética de alto nível de forma acolhedora e acessível.</p>
+      <div class="about__features">
+        <div class="about__feature">
+          <div class="about__feature-icon">◎</div>
+          <div>
+            <strong>Tecnologia de Ponta</strong>
+            <p>Equipamentos certificados e protocolos atualizados.</p>
+          </div>
+        </div>
+        <div class="about__feature">
+          <div class="about__feature-icon">◎</div>
+          <div>
+            <strong>Equipe Especializada</strong>
+            <p>Profissionais com formação rigorosa e anos de experiência.</p>
+          </div>
+        </div>
+        <div class="about__feature">
+          <div class="about__feature-icon">◎</div>
+          <div>
+            <strong>Atendimento Personalizado</strong>
+            <p>Cada plano de tratamento é único, feito para você.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="testimonials__header fade-in">
+      <span class="section-tag">Depoimentos</span>
+      <h2 class="section-title">O Que Nossos Clientes<br /><em>Dizem</em></h2>
+    </div>
+    <div class="testimonials__track" id="testimonialTrack">
+      <div class="testimonial-card glass">
+        <p class="testimonial-card__text">"Ambiente sofisticado, equipe incrível e resultados que superaram todas as minhas expectativas. Me sinto uma pessoa nova após cada sessão na Lumière."</p>
+        <div class="testimonial-card__author">
+          <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=100&q=80" alt="Ana Lima" />
+          <div>
+            <strong>Ana Lima</strong>
+            <span>Executiva Financeira</span>
+          </div>
+        </div>
+        <div class="testimonial-card__stars">★★★★★</div>
+      </div>
+      <div class="testimonial-card glass active">
+        <p class="testimonial-card__text">"Sempre quis fazer harmonização facial mas tinha muito medo. A equipe da Lumière me acolheu, explicou tudo e o resultado ficou absolutamente natural."</p>
+        <div class="testimonial-card__author">
+          <img src="https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?w=100&q=80" alt="Juliana Ferreira" />
+          <div>
+            <strong>Juliana Ferreira</strong>
+            <span>Arquiteta</span>
+          </div>
+        </div>
+        <div class="testimonial-card__stars">★★★★★</div>
+      </div>
+      <div class="testimonial-card glass">
+        <p class="testimonial-card__text">"Profissionalismo do início ao fim. Os tratamentos corporais transformaram minha autoestima. Indico para todas as minhas amigas sem hesitar."</p>
+        <div class="testimonial-card__author">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&q=80" alt="Carla Mendes" />
+          <div>
+            <strong>Carla Mendes</strong>
+            <span>Professora</span>
+          </div>
+        </div>
+        <div class="testimonial-card__stars">★★★★★</div>
+      </div>
+    </div>
+    <div class="testimonials__dots" id="testimonialDots">
+      <button class="dot active" data-index="0"></button>
+      <button class="dot" data-index="1"></button>
+      <button class="dot" data-index="2"></button>
+    </div>
+  </section>
+
+  <!-- BLOG -->
+  <section class="blog" id="blog">
+    <div class="blog__header fade-in">
+      <div>
+        <span class="section-tag">Artigos Recentes</span>
+        <h2 class="section-title">Últimas <em>Publicações</em></h2>
+      </div>
+      <a href="#blog" class="btn btn--outline">Ver Todos</a>
+    </div>
+    <div class="blog__grid">
+      <article class="blog-card fade-in">
+        <div class="blog-card__img">
+          <img src="https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80" alt="Cuidados com a pele" />
+          <span class="blog-card__cat">Skincare</span>
+        </div>
+        <div class="blog-card__body">
+          <span class="blog-card__meta">Cuidados com a Pele · 5 min leitura</span>
+          <h3>Guia Completo Para Manter a Pele Radiante em Casa</h3>
+          <p>Descubra os segredos dos especialistas para cuidar da pele no dia a dia e potencializar os resultados dos seus tratamentos.</p>
+          <a href="#" class="blog-card__link">Ler Artigo →</a>
+        </div>
+      </article>
+      <article class="blog-card fade-in" style="animation-delay:.15s">
+        <div class="blog-card__img">
+          <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&q=80" alt="Harmonização facial" />
+          <span class="blog-card__cat">Tratamentos</span>
+        </div>
+        <div class="blog-card__body">
+          <span class="blog-card__meta">Harmonização Facial · 7 min leitura</span>
+          <h3>Harmonização Facial: Tudo Que Você Precisa Saber Antes de Fazer</h3>
+          <p>Mitos, verdades e o passo a passo para entender o procedimento mais procurado da atualidade com segurança.</p>
+          <a href="#" class="blog-card__link">Ler Artigo →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="faq__inner">
+      <div class="faq__header fade-in">
+        <span class="section-tag">Dúvidas Frequentes</span>
+        <h2 class="section-title">Tem <em>Perguntas?</em></h2>
+        <p>Estamos aqui para tornar sua experiência o mais tranquila e esclarecida possível.</p>
+      </div>
+      <div class="faq__list">
+        <div class="faq-item fade-in">
+          <button class="faq-item__q">Como posso realizar um pagamento? <span class="faq-item__icon">+</span></button>
+          <div class="faq-item__a"><p>Aceitamos cartões de crédito, débito, Pix e dinheiro. Também oferecemos parcelamento em até 12× sem juros para procedimentos selecionados.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-item__q">Os procedimentos são seguros? <span class="faq-item__icon">+</span></button>
+          <div class="faq-item__a"><p>Sim. Todos os nossos tratamentos são realizados por profissionais habilitados, com produtos e equipamentos certificados pela ANVISA. Sua segurança é nossa prioridade.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-item__q">Quantas sessões são necessárias para ver resultados? <span class="faq-item__icon">+</span></button>
+          <div class="faq-item__a"><p>Depende do tratamento e do objetivo. Muitos clientes notam diferença já na primeira sessão, mas protocolos completos geralmente envolvem de 4 a 10 sessões. Tudo é explicado na avaliação inicial gratuita.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-item__q">Preciso de consulta antes do procedimento? <span class="faq-item__icon">+</span></button>
+          <div class="faq-item__a"><p>Sim, oferecemos uma avaliação inicial gratuita para entender seus objetivos, analisar sua pele/corpo e indicar o protocolo mais adequado para você.</p></div>
+        </div>
+        <div class="faq-item fade-in">
+          <button class="faq-item__q">Qual é o horário de atendimento? <span class="faq-item__icon">+</span></button>
+          <div class="faq-item__a"><p>Atendemos de segunda a sábado, das 8h às 20h. Aos domingos, mediante agendamento prévio. Também temos plantão de atendimento online 24 horas.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / QUOTE -->
+  <section class="cta-section" id="orcamento">
+    <div class="cta-section__bg">
+      <img src="https://images.unsplash.com/photo-1582562124811-c09040d0a901?w=1800&q=80" alt="Produtos estéticos" />
+      <div class="cta-section__overlay"></div>
+    </div>
+    <div class="cta-section__content fade-in">
+      <span class="section-tag section-tag--light">Agende Agora</span>
+      <h2 class="cta-section__title">Solicite um <em>Orçamento Gratuito</em></h2>
+      <p>Nossa equipe entrará em contato em até 2 horas para entender suas necessidades e criar o protocolo ideal para você.</p>
+      <form class="cta-section__form" id="ctaForm">
+        <input type="text" placeholder="Seu nome completo" required />
+        <input type="email" placeholder="Seu e-mail" required />
+        <button type="submit" class="btn btn--primary">Solicitar Orçamento</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contato">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <div class="footer__logo">Lumière<span>.</span></div>
+        <p>Estética avançada.<br />Resultados extraordinários.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="Instagram">◈</a>
+          <a href="#" aria-label="Facebook">◈</a>
+          <a href="#" aria-label="WhatsApp">◈</a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Páginas</h4>
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#resultados">Resultados</a></li>
+          <li><a href="#blog">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Serviços</h4>
+        <ul>
+          <li><a href="#">Tratamentos Faciais</a></li>
+          <li><a href="#">Harmonização Facial</a></li>
+          <li><a href="#">Criolipólise</a></li>
+          <li><a href="#">Radiofrequência</a></li>
+          <li><a href="#">Pós-operatório</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Contato</h4>
+        <ul>
+          <li>contato@lumiere.com.br</li>
+          <li>(91) 99999-0000</li>
+          <li>Belém, PA – Brasil</li>
+          <li><a href="#">Termos de Uso</a></li>
+          <li><a href="#">Privacidade</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2024 Lumière Clínica Estética · Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
